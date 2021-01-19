@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/back_music"
+    tools:context=".activity.VolumeActivity">
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:theme="@style/MyCheckBox"
+        android:layout_width="210dp"
+        android:layout_height="255dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="263dp">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="向日葵"
+            android:textColor="#FFB3FAE3"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="女生徒"
+            android:textColor="#FFB3FAE3" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The heat"
+            android:textColor="#FFB3FAE3" />
+    </RadioGroup>
+
+    <RelativeLayout
+        android:id="@+id/local_music_bottomlayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="248dp"
+        android:background="#33EEEEEE">
+
+        <Switch
+            android:id="@+id/switch1"
+            android:theme="@style/MyCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="20dp"
+            android:checked="true"
+            android:text="声音开关"
+            android:textColor="#FFB3FAE3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="306dp"
+            android:layout_marginTop="17dp"
+            android:src="@drawable/volum"
+            android:textColor="#FFB3FAE3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </RelativeLayout>
+
+</RelativeLayout>

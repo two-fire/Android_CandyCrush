@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.HelpActivity"
+    android:background="@drawable/back4">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#FFB3FAE3"
+        android:textSize="30sp"
+        android:text="帮助信息"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/miaowu"
+        android:textSize="18sp"
+        android:text="玩家只需滑动手指让三个及以上的同色小动物横竖相连即可消除"
+        android:textColor="#B3FAE3"></TextView>
+    <TextView
+        android:id="@+id/textViewChapter1a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFB3FAE3"
+        android:fontFamily="@font/miaowu"
+        android:text="抵制不良游戏，拒绝盗版游戏，注意自我保护，谨防受骗上当，适度游戏益脑，沉迷游戏伤身，合理安排时间，享受健康生活。" />
+
+</LinearLayout>
